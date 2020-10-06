@@ -1,0 +1,21 @@
+<h1 class="page-title">Pages</h1>
+<br>
+
+<table class="table">
+  <tr bgcolor="#f9f9f9">
+    <th>Title</th>
+    <th>Header</th>
+    <th>Content</th>
+  </tr>
+   <tr *ngFor="let page of pages">
+    <td>
+      {{ page.title }}
+    </td>
+    <td>
+      {{ page.header }}
+    </td>
+    <td>
+      {{ page.content }}
+    </td>
+  </tr>
+</table>  
